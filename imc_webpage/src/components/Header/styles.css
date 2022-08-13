@@ -1,0 +1,102 @@
+.navBox{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.845);
+}
+
+
+.navBar{
+    width: 80%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5% 0 1% 0;
+}
+
+.title{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#navButtons{
+    width: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+#navButtons button{
+    background: none;
+    color: whitesmoke;
+    border: none;
+}
+
+#navButtons button:hover{
+    color: rgba(255, 255, 0, 0.865);
+    transition: 0.6s;
+}
+
+
+.contentBox{
+    width: 80%;
+    height: 90%;
+    display: flex;
+}
+
+.contentLeft{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.contentLeft h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.contentLeft p{
+    text-indent: 1.5em; 
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.572)
+}
+
+.contentRight{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 85%;
+    width: 70%;
+    min-width: 320px;
+    border-radius: 100% 100% 0 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 0;
+    max-width: 400px;
+}
+
+.decoration{
+    height: 45%;
+    width: 28%;
+    min-width: 320px;
+    border-radius: 100% 100% 0 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    border: 1px solid white;
+    margin-bottom: 52px;
+    margin-right: 32px ;
+    z-index: 0;
+    max-width: 400px;
+}

@@ -1,13 +1,14 @@
 import { Route, Routes } from 'react-router-dom';
+import { Contato } from '../pages/Contato';
+import { Home } from '../pages/Home';
 
-import { Calculadora } from '../pages/Calculadora';
-import { Classificacao } from '../pages/Classificacao'
+
 
 export const Navigation = () => {
     return (
     <Routes>
-        <Route path="/" element={<Calculadora />} />
-        <Route path="classificacao" element={<Classificacao />} />
+        <Route path="/" element={<Home />} />
+        <Route path="contato" element={<Contato/>} />
     </Routes>
     )
 }
