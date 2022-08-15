@@ -1,0 +1,101 @@
+section{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.427);
+}
+
+.contentBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contentBox h2{
+    color: black;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.bolinhas{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+}
+
+.um{
+    opacity: 0.6;
+    top: 40%;
+    left: 50%
+}
+
+.dois{
+    opacity: 0.6;
+    top: 20%;
+    left: 60%
+}
+
+.tres{
+    opacity: 0.6;
+    top: 50%;
+    right: 10%
+}
+
+.card{
+    width: 40%;
+    height: 20%;
+    background-color: rgba(255, 0, 0, 0.72);
+    align-self: flex-start;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardIcons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.buttonVoltar{
+    border: 1px whitesmoke solid;
+    color: black;
+    border-radius: 15px;
+    padding: 8px 100px 8px 100px;
+    background: whitesmoke;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+
+.buttonVoltar:hover{
+    background: rgba(255, 255, 0, 0.865);
+    border: 1px rgba(255, 255, 0, 0.865) solid;
+    transition: 0.6s;
+} 
+
+@media screen and (max-width: 750px){
+    .bolinhas{
+        display: none;
+    }
+
+    .card{
+        align-self: center;
+        width: 80%;
+    }
+
+    .buttonVoltar{
+        padding: 8px 60px 8px 60px;
+    }
+}
