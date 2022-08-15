@@ -1,4 +1,4 @@
-section{
+.sectionContato{
     display: flex;
     height: 100vh;
     align-items: center;
@@ -6,13 +6,15 @@ section{
     background-color: rgba(0, 0, 0, 0.427);
 }
 
-.contentBox{
+.contentBoxContato{
+    height: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.contentBox h2{
+.contentBoxContato h2{
     color: black;
     font-size: 2rem;
     margin-top: 50px;
@@ -45,7 +47,7 @@ section{
     right: 10%
 }
 
-.card{
+.cardContato{
     width: 40%;
     height: 20%;
     background-color: rgba(255, 0, 0, 0.72);
@@ -62,7 +64,7 @@ section{
     justify-content: space-evenly;
 }
 
-.card img{
+.cardContato img{
     width: 60px;
     height: 60px;
     margin-top: 20px;
@@ -90,7 +92,7 @@ section{
         display: none;
     }
 
-    .card{
+    .cardContato{
         align-self: center;
         width: 80%;
     }

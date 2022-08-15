@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 
 export const Contato = () => {
     return (
-        <section>
-            <div className="contentBox">
+        <section className="sectionContato">
+            <div className="contentBoxContato">
                 <h2>Contatos</h2>
-                <div className="card">
+                <div className="cardContato">
                     <div>
                     <h4>Redes Socias</h4>
                     </div>
@@ -18,7 +18,7 @@ export const Contato = () => {
                         <a href="https://github.com/jeff-lf"><img src={github}></img></a>
                     </div>
                 </div>
-                <div className="card">
+                <div className="cardContato">
                     <div>
                     <h4>Telefone</h4>
                     </div>
@@ -26,7 +26,7 @@ export const Contato = () => {
                         <p>(11)96430-8748</p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="cardContato">
                     <div>
                     <h4>Email</h4>
                     </div>
