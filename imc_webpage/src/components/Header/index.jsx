@@ -1,3 +1,4 @@
+
 import "./styles.css"
 
 
@@ -6,12 +7,12 @@ export const Header = () => {
         <header className="navBox">
             <nav className="navBar">
                 <a className="title" href="#top">
-                 <h2>Health</h2>
+                 <h2 className="titleText">Health</h2>
                 </a>
                 <div id="navButtons">
-                    <button>Classificação</button>
-                    <button>Conhecimentos</button>
-                    <button>Calculadora</button>
+                    <a href="#classificacao">Classificação</a>
+                    <a href="#conhecimentos">Conhecimentos</a>
+                    <a href="#calculadora">Calculadora</a>
                     <button>Contato</button>
                 </div>
             </nav>
@@ -23,11 +24,13 @@ export const Header = () => {
                         estar abaixo do peso também pode indicar diversos problemas na saúde.
                         Para conferir se o seu peso está adequado, existe um método de cálculo. Você sabe o que é IMC? 
                     </p>
-                    <button>Veja mais</button>
+                    <div className="containerLeftButtons">
+                        <a href="#classificacao">Veja mais</a>
+                    </div>
                 </div>
                 <div className="contentRight">
                     <div className="decoration"></div>
-                    <img src="https://i.pinimg.com/564x/73/37/06/733706aea11fb0e94bfe87ff45b46e99.jpg"></img>
+                    <img className="headerImg" src="https://i.pinimg.com/564x/73/37/06/733706aea11fb0e94bfe87ff45b46e99.jpg"></img>
                 </div>
             </div>
         </header>

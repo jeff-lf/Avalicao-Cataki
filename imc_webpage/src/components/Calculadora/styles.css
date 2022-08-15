@@ -1,0 +1,80 @@
+.calculadoraBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4%;
+    background-color: rgba(0, 0, 0, 0.845);
+    background-image: url('../../assets/images/back.jpg');
+}
+
+.calculadoraContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.calculadoraBox h2{
+    font-size: 2.5rem;
+    color: whitesmoke
+}
+
+.formBox{
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.845);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.formBox form{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+.formBox form h3{
+    font-size: 1.9rem;
+}
+
+.formBox form label{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.formTitle{
+    display: flex;
+    align-self: center;
+}
+
+.inputBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formButton{
+    margin-top: 20px;
+    border: 1px whitesmoke solid;
+    color: black;
+    border-radius: 15px;
+    padding: 6px 20px 6px 20px;
+    background: whitesmoke;
+    font-weight: 700;
+}
+
+.formButton:hover{
+    background: rgba(255, 255, 0, 0.865);
+    border: 1px rgba(255, 255, 0, 0.865) solid;
+    transition: 0.6s;
+}

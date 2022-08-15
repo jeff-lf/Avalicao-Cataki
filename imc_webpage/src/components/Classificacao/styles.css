@@ -1,0 +1,35 @@
+.classificacaoBox{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: white;
+}
+
+.classificacaoDiv{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classificacaoBox h2{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.classificacaoBox p{
+    color: rgba(0, 0, 0, 0.450);
+    font-weight: 500;
+}
+
+.listBox{
+    overflow-x:auto;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    gap: 50px;
+    margin-top: 30px;
+}

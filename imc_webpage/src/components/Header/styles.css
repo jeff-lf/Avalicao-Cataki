@@ -9,35 +9,56 @@
 
 
 .navBar{
-    width: 80%;
-    height: 5%;
+    width: 100%;
+    height: 7%;
     display: flex;
-    justify-content: space-between;
-    margin: 1.5% 0 1% 0;
+    justify-content: center;
+    padding: 1.5% 0 1.5% 0;
+    position: fixed;
+    background-color: black ;
+    top: 0;
+    z-index: 2;
 }
 
 .title{
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
+.titleText{
+    font-size: 1.8rem;
+    color: rgba(245, 245, 245, 0.887);
+}
+
 #navButtons{
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items:center;
     justify-content: flex-end;
     gap: 20px;
 }
 
-#navButtons button{
+#navButtons a{
     background: none;
     color: whitesmoke;
     border: none;
 }
-
+#navButtons button{
+    border: 1px whitesmoke solid;
+   border-radius: 15px;
+   padding: 6px 20px 6px 20px;
+   background: none;
+   color: whitesmoke;
+}
 #navButtons button:hover{
+    color: rgba(255, 255, 0, 0.865);
+    border: 1px rgba(255, 255, 0, 0.865) solid;
+    transition: 0.6s;
+}
+
+#navButtons a:hover{
     color: rgba(255, 255, 0, 0.865);
     transition: 0.6s;
 }
@@ -47,6 +68,7 @@
     width: 80%;
     height: 90%;
     display: flex;
+    margin-top: 20px;
 }
 
 .contentLeft{
@@ -55,8 +77,28 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 80px;
     margin-bottom: 70px;
 }
+
+.containerLeftButtons {
+   width: 100%;
+   margin-top: 50px;
+}
+
+.containerLeftButtons a{
+    border: 1px whitesmoke solid;
+    color: black;
+    border-radius: 15px;
+    padding: 6px 20px 6px 20px;
+    background: whitesmoke;
+    font-weight: 700;
+ }
+ .containerLeftButtons a:hover{
+    background: rgba(255, 255, 0, 0.865);
+    border: 1px rgba(255, 255, 0, 0.865) solid;
+    transition: 0.6s;
+ }
 
 .contentLeft h1{
     font-size: 3rem;
@@ -75,10 +117,10 @@
     justify-content: center;
 }
 
-img{
+.headerImg{
     height: 85%;
     width: 70%;
-    min-width: 320px;
+    min-width: 280px;
     border-radius: 100% 100% 0 0;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -89,7 +131,7 @@ img{
 .decoration{
     height: 45%;
     width: 28%;
-    min-width: 320px;
+    min-width: 280px;
     border-radius: 100% 100% 0 0;
     padding-top: 50px;
     padding-bottom: 50px;

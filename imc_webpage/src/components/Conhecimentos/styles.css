@@ -1,0 +1,75 @@
+.conhecimentosBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: rgba(14, 1, 1, 0.073);
+}
+
+.conhecimentosBox h2{
+    font-size: 2.5rem;
+    color: black;
+}
+.conhecimentosContainer p{
+    color: rgba(0, 0, 0, 0.381);
+    font-weight: 500;
+}
+
+.conhecimentosContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conhecimentosList{
+    width: 80%;
+    margin-top: 50px;
+}
+
+.conhecimentosList li{
+    width: 100%;
+    display: flex;
+    margin: 50px 0px;
+}
+
+.textBox{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.Impar{
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 3%;
+}
+
+
+.Right{
+    align-items: flex-end;
+    margin-left: 43%;
+}
+
+.textBox h4{
+    color: rgba(0, 0, 0, 0.872);
+    font-size: 20px;
+}
+
+.textBox p{
+    color: rgba(0, 0, 0, 0.479);
+    font-size: 18px;
+}
+
+.listImg{
+    width:130px;
+    height: 130px;
+    border-radius: 100%;
+    align-self: flex-start;
+    justify-self: center;
+    border: 10px rgba(0, 0, 0, 0.162) solid;
+}

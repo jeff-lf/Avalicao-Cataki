@@ -1,0 +1,16 @@
+footer{
+    height: 7vh;
+    width: 100vw;
+    background-color:  rgba(0, 0, 0, 0.784);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div{
+    width: 80%;
+}
+
+footer div p{
+    color: rgba(245, 245, 245, 0.462)
+}

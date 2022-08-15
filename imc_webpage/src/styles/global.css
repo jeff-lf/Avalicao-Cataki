@@ -7,7 +7,6 @@
 
 body{
     background-color: none;
-    
 }
 
 body, input, button{
@@ -18,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1rem;
     font-weight: 700;
     color: whitesmoke;
+    font-family: 'Fredoka One', cursive;
 }
 
 p{
@@ -30,4 +30,8 @@ button {
 
 a{
     text-decoration: none;
+}
+
+li{
+    list-style: none;
 }

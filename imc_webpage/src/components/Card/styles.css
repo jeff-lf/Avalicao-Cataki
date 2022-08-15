@@ -1,0 +1,31 @@
+.liCard{
+    width: 20vw;
+    min-width: 245px;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    box-shadow: 0 0 0.3em grey;
+    margin: 10px 5px 0 5px;
+    border-radius: 5px;
+}
+
+.cardImg{
+    width: 20vw;
+    min-width: 245px;
+    max-width: 245px;
+    height: 30vh;
+    margin-bottom: 1.4vh;
+    border-radius: 5px 5px 0 0;
+}
+
+.tituloCard{
+    color: rgba(0, 0, 0, 0.872);
+    font-size: 1.5em;
+}
+
+.textoCard{
+    margin-bottom: 2.7vh;
+}
