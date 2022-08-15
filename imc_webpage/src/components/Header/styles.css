@@ -142,3 +142,84 @@
     z-index: 0;
     max-width: 400px;
 }
+
+.modal{
+    display: none;
+}
+
+
+@media screen and (max-width: 750px){
+    .navBox{
+        background-image: url('https://i.pinimg.com/564x/73/37/06/733706aea11fb0e94bfe87ff45b46e99.jpg');
+        background-size: cover;
+        opacity: 0.9;
+    }
+
+    .contentRight{
+        display: none;
+    }
+    .contentLeft{
+        width: 100%;
+    }
+
+    .contentBox{
+        display: flex;
+    }
+
+    .contentLeft h1{
+        color: rgb(204, 37, 3);
+    }
+    .contentLeft p{
+        text-indent: 1.5em; 
+        margin-bottom: 5px;
+        color: black;
+        font-weight: 700;
+        background-color: antiquewhite;
+    }
+
+    #navButtons{
+        display: none;
+    }
+
+    .title{
+        width: 80%;
+    }
+
+    .modal{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 6%;
+        right: 10%;
+        background-color: black;
+        width: 30%;
+    }
+
+    .menu{
+        position: fixed;
+        top: 1%;
+        right: 10%;
+        background-color: rgba(245, 245, 245, 0.887);
+        padding: 5px;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+
+    .modal a{
+        background: none;
+        color: whitesmoke;
+        border: none;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        border-bottom: 1px whitesmoke solid;
+    }
+
+    .modal a:hover{
+        color: rgba(255, 255, 0, 0.865);
+        transition: 0.6s;
+    }
+
+    .off{
+        display: none;
+    }
+}

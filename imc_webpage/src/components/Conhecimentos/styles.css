@@ -73,3 +73,30 @@
     justify-self: center;
     border: 10px rgba(0, 0, 0, 0.162) solid;
 }
+
+
+@media screen and (max-width: 750px){
+    .conhecimentosList{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .conhecimentosList li{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textBox{
+        width: 80%;
+    }
+    .Right{
+        align-self: flex-end;
+    }
+
+    .lastImg{
+        align-self: center;
+    }
+}
